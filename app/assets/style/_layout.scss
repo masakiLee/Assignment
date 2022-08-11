@@ -1,0 +1,78 @@
+body {
+    font-family: "Lato", "Roboto", "sans-serif";
+    font-size: 16px;
+    line-height: 1.5;
+    color: $gray-900;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: $gray-900;
+}
+
+a:hover {
+    color: $success;
+}
+
+.container {
+    width: 1304px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 296px;
+    background-color: $gray-100;
+
+    ul {
+        padding-bottom: 304px;
+
+        li {
+            border-left: 4px solid transparent;
+
+            &:hover {
+                border-color: $success;
+            }
+
+            &:hover a {
+                color: $success;
+            }
+        }
+    }
+
+    .active {
+        border-color: $success;
+        color: $success;
+    }
+
+    .material-icons {
+        margin-left: 27px;
+    }
+
+    .userImg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .userName {
+        line-height: 19px;
+    }
+
+    .userEmail,
+    .userTime {
+        font-size: 14px;
+        line-height: 17px;
+        color: $gray-600;
+    }
+}

@@ -1,0 +1,13 @@
+.write {
+    height: 263px;
+    border: 1px solid $gray-400;
+    border-top: 0;
+
+    textarea {
+        height: 164px;
+        width: 536px;
+        outline: 0;
+        border-color: white;
+        resize: none;
+    }
+}
